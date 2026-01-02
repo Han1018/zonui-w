@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // 針對 https://han1018.github.io/zonui-w/ 的部署設定
-  base: '/zonui-w/', 
+  // 部署到 https://<user>.github.io/zonui-3b/ 的 base 設定
+  base: '/zonui-3b/',
   build: {
     outDir: 'dist',
     sourcemap: false
